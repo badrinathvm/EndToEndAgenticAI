@@ -36,7 +36,6 @@ def load_langgraph_agenticai_app():
                 st.error("Error: No use case seelcted")
                 return
             
-            
             # Graph Builder
             graph_builder = GraphBuilder(model)
             print(graph_builder)
